@@ -21,6 +21,26 @@ function App() {
               <i className="fa fa-search" />
             </button>
           </div>
+          <div className="login-container p-0">
+            <i className="fa fa-user-circle user-icon" />
+            <h5>
+              <a href="#">Login</a>
+            </h5>
+            /
+            <h5>
+              <a href="#">Register</a>
+            </h5>
+          </div>
+          <div className="cart-wishlist">
+            <ul>
+              <li className="list-icon">
+                <i className="fa fa-heart"></i>
+              </li>
+              <li className="list-icon">
+                <i className="fa fa-shopping-cart"></i>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
