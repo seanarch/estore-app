@@ -1,3 +1,6 @@
+$icon-font: 1.3em;
+$element-height: 2.5em;
+
 .header {
   max-width: 100%;
   box-shadow: 5px 5px 20px gray;
@@ -17,12 +20,12 @@
 .inp-container input {
   display: inline-block;
   width: 75%;
-  height: 2.5em;
+  height: $element-height;
 }
 
 .inp-container button {
   width: 10%;
-  height: 2.5em;
+  height: $element-height;
   border: none;
   background-color: #dadada;
 }
@@ -32,7 +35,7 @@
 }
 
 .select-btn {
-  height: 2.5em;
+  height: $element-height;
   border: none;
   background-color: #dadada;
   font-weight: 600;
@@ -58,12 +61,12 @@ h5 {
 .user-icon {
   margin-right: 0.4em;
   padding: 0.2em;
-  font-size: 1.3em;
+  font-size: $icon-font;
 }
 
 .cart-wishlist .list-icon {
   color: white;
-  font-size: 1.3em;
+  font-size: $icon-font;
   list-style-type: none;
   display: inline-block;
   margin-right: 0.5em;
