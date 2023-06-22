@@ -16,6 +16,23 @@
       height: 1.8em;
       font-size: 0.9em;
       font-weight: 700;
+
+      &::after {
+        content: "";
+        display: block;
+        bottom: 0;
+        left: 0;
+        height: 0.2em;
+        background-color: red;
+        transform: scaleX(0);
+        transition-property: tranform;
+        transition-duration: 0.2s;
+      }
+      &:hover {
+        &::after {
+          transform: scaleX(1.1);
+        }
+      }
     }
   }
 }
