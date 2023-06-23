@@ -50,6 +50,12 @@ const Products = () => {
                 <a href="#">{product.pName}</a>
               </h5>
               <p className="product-price">{product.price}</p>
+              <div className="product-rating">
+                <i className="fa fa-star" />
+                <i className="fa fa-star" />
+                <i className="fa fa-star" />
+                <i className="fa fa-star" />
+              </div>
             </div>
           </div>
         );

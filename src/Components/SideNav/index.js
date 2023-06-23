@@ -34,7 +34,7 @@ const SideNav = () => {
                   <a href="#">Boots</a>
                 </li>
                 <li className="sub-items">
-                  <a href="#">Part Wear</a>
+                  <a href="#">Party Wear</a>
                 </li>
                 <li className="sub-items">
                   <a href="#">Shirts</a>
