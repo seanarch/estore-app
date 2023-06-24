@@ -38,7 +38,7 @@ const Products = () => {
     <div className="products-container">
       {productData.map((product, key) => {
         return (
-          <div className="mx-5 p-3 product-card">
+          <div key={product.pName} className="mx-5 p-3 product-card">
             <div className="product-image-container">
               <img
                 src={require("../../assets/images/shop/" + product.img)}
